@@ -95,6 +95,11 @@ section {
     margin: 0 auto;
 }
 
+.fix {
+    height: 110px;
+    border: 1px solid trasparent;
+}
+
 .mt-30 {
     margin-top: 30px;
 }
@@ -110,7 +115,8 @@ section {
 .mb-40 {
     margin-bottom: 40px;
 }
-.mb-80{
+
+.mb-80 {
     margin-bottom: 60px;
 }
 
@@ -124,6 +130,10 @@ section {
 
 .pt-10 {
     padding-top: 10px;
+}
+
+.pl-10 {
+    padding-left: 10px;
 }
 
 .mt-10 {
@@ -147,12 +157,19 @@ section {
 .acn-letter-spacing {
     letter-spacing: 0.0625em;
 }
-.acn-bg-gray{
-	height: 53px;
-	width: 42.99px;
-	border-radius: 8px;
-	background-color: #E1DEDE;
+
+.acn-bg-gray {
+    height: 53px;
+    width: 42.99px;
+    border-radius: 8px;
+    background-color: #E1DEDE;
+    margin-bottom: 0px;
 }
+.pdm-0{
+    margin: 0px;
+    padding: 0px;
+}
+
 .acn-font-color-1 {
     color: #FF671F;
 }
@@ -160,19 +177,22 @@ section {
 .acn-font-color-4 {
     color: #FF7331;
 }
-.dayhm{
-	height: 12px;
-	width: 94px;
-	color: #242424;
-	font-family: Lato;
-	font-size: 10px;
-	line-height: 12px;
-	text-align: center;
+
+.dayhm {
+    height: 12px;
+    width: 94px;
+    color: #242424;
+    font-family: Lato;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
 }
-.acn-blue{
+
+.acn-blue {
     color: #002855!important;
 }
-.mb-r i{
+
+.mb-r i {
     margin-bottom: 0rem!important;
 }
 
@@ -364,6 +384,9 @@ sub {
 
 .font-size-34 {
     font-size: 34px;
+}
+.font-size-30{
+    font-size: 30px;
 }
 
 .font-size-32 {
@@ -568,6 +591,48 @@ button.btn.btn-secondary.dropdown-toggle{
     background-size: cover;
 }
 
+.section-cinfo {
+    padding-top: 3rem;
+}
+/*Awards*/
+.div_border{
+    margin-top: 40px;
+    margin-left: 15px;
+    margin-right: 15px;
+	height: 280px;
+    border: 1px solid #979797;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.div_in_border{
+	height: 65px;
+	width: 65px;
+	color: #FFFFFF;
+	font-family: Lato;
+	font-size: 30px;
+	font-weight: bold;
+	line-height: 62px;
+	text-align: center;
+    border-radius: 50%;
+    margin-top: 20px;
+    background-color: #4A90E2;
+}
+.h-290{
+    height: 335px;
+}
+.lh-26{
+    line-height: 26px;
+}
+.even-color{
+    background-color: #57C8CD;
+}
+.odd-color{
+    background-color: #002855;
+}
+.forth-color{
+    background-color: #9B9B9B;
+}
+
 /*banner*/
 
 #cover {
@@ -660,14 +725,32 @@ button.btn.btn-secondary.dropdown-toggle{
     background: url(../images/business_mobile_header.png) center;
     background-size: cover;
 }
-#l-banner-PFK{
+
+#l-banner-PFK {
     height: 100%;
     background: url(../images/kids-img_mobile.png) center;
     background-size: cover;
 }
-#l-banner-event{
+#l-banner-GB{
+    height: 100%;
+    background: url(../images/kids-img_mobile.png) center;
+    background-size: cover;
+}
+
+#l-banner-event {
     height: 100%;
     background: url(../images/event-mobile.png) center;
+    background-size: cover;
+}
+
+#l-banner-contact {
+    height: 100%;
+    background: url(../images/contact-mobile.png) center;
+    background-size: cover;
+}
+#l-banner-award{
+    height: 100%;
+    background: url(../images/award_mobile.png) center;
     background-size: cover;
 }
 
@@ -681,8 +764,13 @@ button.btn.btn-secondary.dropdown-toggle{
 .l-banner-position {
     margin-top: 210px;
 }
-.l-banner-position-event{
-        margin-top: 50px;
+
+.l-banner-position-contact {
+    margin-top: 200px;
+}
+
+.l-banner-position-event {
+    margin-top: 50px;
     margin-bottom: 180px;
 }
 
@@ -705,10 +793,16 @@ button.btn.btn-secondary.dropdown-toggle{
     margin-top: 23px;
     margin-bottom: 0px;
 }
-.l-banner-position-PFK{
+
+.l-banner-position-PFK {
     margin-top: 100px;
     margin-bottom: 100px;
 }
+.l-banner-position-GB {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
 .m-position {
     margin-top: 142px;
 }
@@ -740,7 +834,8 @@ button.btn.btn-secondary.dropdown-toggle{
     position: absolute;
     margin-top: 10px;
 }
-.btn-position-event{
+
+.btn-position-event {
     position: absolute;
     margin-top: 10px;
     transform: translate(-50%, -50%);
@@ -803,7 +898,8 @@ button.btn.btn-secondary.dropdown-toggle{
 #agents {
     background-color: #F2F5F9;
 }
-#fourcolumnsPFK{
+
+#fourcolumnsPFK {
     background-color: #F2F5F9;
 }
 
@@ -915,6 +1011,12 @@ section#support ul > li {
     color: white;
     /*    overflow:scroll;*/
 }
+#Givingback{
+    height: 100%;
+    background: url(../images/givingBackimg2.png);
+    background-size: cover;
+    color: white;
+}
 
 /*refer-friend*/
 
@@ -1007,11 +1109,10 @@ div.col-sm-2.col-6 {
     .container {
         max-width: 750px;
     }
-    .container1{
+    .container1 {
         max-width: 768px;
     }
 }
-
 
 @media (min-width: 1200px) {
     .container {
@@ -1036,10 +1137,10 @@ div.col-sm-2.col-6 {
     #agents > .container {
         max-width: 1460px;
     }
-    #fourcolumns > div.container{
+    #fourcolumns > div.container {
         max-width: 1460px;
     }
-    #fourcolumnsPFK > div.container{
+    #fourcolumnsPFK > div.container {
         max-width: 1460px;
     }
 
@@ -1067,26 +1168,42 @@ div.col-sm-2.col-6 {
     .wdt-60 {
         width: 20%;
     }
-    .align-l{
+    .w-225 {
+        width: 310px;
+    }
+    .cimg-ic {
+        height: 45px;
+        width: 150px;
+    }
+    .align-l {
         position: relative;
         left: 110px;
     }
-    .align-r{
+    .align-r {
         position: relative;
         right: 110px;
     }
-    
+    .d-hideall {
+        display: none;
+    }
     .w-60 {
         width: 40%;
     }
     .mt--40 {
         margin-top: -80px!important;
     }
-     .mt-20{
+    .mt-20 {
         margin-top: 20px!important;
     }
     .dps-infographic {
         width: 40%;
+    }
+    .img-size {
+        width: 115px;
+        height: 85px;
+    }
+    .d-hidem {
+        display: none;
     }
 
     /*    pc width home phone banner h1*/
@@ -1191,14 +1308,29 @@ div.col-sm-2.col-6 {
         background: url(../images/business_desktop_header.png) center;
         background-size: cover;
     }
-    #l-banner-PFK{
+    #l-banner-PFK {
         height: 100%;
         background: url(../images/kids-img.png) center;
         background-size: cover;
     }
-    #l-banner-event{
-         height: 100%;
+    #l-banner-GB {
+        height: 100%;
+        background: url(../images/kids-img.png) center;
+        background-size: cover;
+    }
+    #l-banner-event {
+        height: 100%;
         background: url(../images/event-desktop.png) center;
+        background-size: cover;
+    }
+    #l-banner-contact {
+        height: 100%;
+        background: url(../images/contact-desktop.png) center;
+        background-size: cover;
+    }
+    #l-banner-award{
+        height: 100%;
+        background: url(../images/award_desktop.png) center;
         background-size: cover;
     }
 
@@ -1211,7 +1343,11 @@ div.col-sm-2.col-6 {
         margin-bottom: 120px;
         margin-top: 100px;
     }
-    .l-banner-position-event{
+    .l-banner-position-contact {
+        margin-bottom: 180px;
+        margin-top: 40px;
+    }
+    .l-banner-position-event {
         margin-bottom: 120px;
         margin-top: 100px;
     }
@@ -1223,9 +1359,13 @@ div.col-sm-2.col-6 {
         margin-bottom: 75px;
         margin-top: 67px;
     }
-    .l-banner-position-PFK{
+    .l-banner-position-PFK {
         margin-top: 140px;
         margin-bottom: 140px;
+    }
+    .l-banner-position-GB{
+        margin-top: 110px;
+        margin-bottom: 110px;
     }
     .l-banner-position-sa {
         margin-bottom: 75px;
@@ -1329,21 +1469,31 @@ div.col-sm-2.col-6 {
     }
     
 */
-    .simple{
+    .d-hidet {
+        display: none;
+    }
+    .simple {
         position: relative;
         left: 30px;
     }
-    .mt-20{
+    .mt-20 {
         margin-top: 20px!important;
     }
-    .acn-mt-40{
+    .acn-mt-40 {
         margin-top: 40px!important;
     }
-    .acn-mb-40{
+    .acn-mb-40 {
         margin-bottom: 40px!important;
     }
-    .acn-bg-grwhite{
+    .acn-bg-grwhite {
         background-color: #f7f0f0;
+    }
+    .cimg-ic {
+        height: 45px;
+        width: 150px;
+    }
+    .section-cinfo {
+        padding-top: 3rem;
     }
     .d-Tblock {
         display: none;
@@ -1360,10 +1510,10 @@ div.col-sm-2.col-6 {
     .dps-infographic {
         width: 50%;
     }
-    .acn-bg-gray{
+    .acn-bg-gray1 {
         background-color: #F2F5F9;
     }
-    .acn-bg-white{
+    .acn-bg-white {
         background-color: white;
     }
     /*    reliance Home comfort check available button*/
@@ -1393,7 +1543,7 @@ div.col-sm-2.col-6 {
     .mt--40 {
         margin-top: -80px!important;
     }
-   
+
 
     /*refer-friend*/
     .refer-friend-text-position {
@@ -1478,14 +1628,29 @@ div.col-sm-2.col-6 {
         background: url(../images/business_tablet_header.png) center;
         background-size: cover;
     }
-    #l-banner-PFK{
-         height: 100%;
+    #l-banner-PFK {
+        height: 100%;
         background: url(../images/kids-img_tablet.png) center;
         background-size: cover;
     }
-    #l-banner-event{
+     #l-banner-GB {
+        height: 100%;
+        background: url(../images/kids-img_tablet.png) center;
+        background-size: cover;
+    }
+    #l-banner-event {
         height: 100%;
         background: url(../images/event-tablet.png) center;
+        background-size: cover;
+    }
+    #l-banner-contact {
+        height: 100%;
+        background: url(../images/contact-tablet.png) center;
+        background-size: cover;
+    }
+    #l-banner-award{
+        height: 100%;
+        background: url(../images/award_tablet.png) center;
         background-size: cover;
     }
 
@@ -1497,7 +1662,11 @@ div.col-sm-2.col-6 {
         margin-top: 27px;
         margin-bottom: 128px;
     }
-    .l-banner-position-event{
+    .l-banner-position-contact {
+        margin-top: 140px;
+        margin-bottom: 28px;
+    }
+    .l-banner-position-event {
         margin-top: 27px;
         margin-bottom: 128px;
     }
@@ -1513,7 +1682,11 @@ div.col-sm-2.col-6 {
         margin-top: 38px;
         margin-bottom: 75px;
     }
-    .l-banner-position-PFK{
+    .l-banner-position-PFK {
+        margin-top: 75px;
+        margin-bottom: 75px;
+    }
+    .l-banner-position-GB {
         margin-top: 75px;
         margin-bottom: 75px;
     }
@@ -1548,8 +1721,12 @@ div.col-sm-2.col-6 {
 
     #child-hunger {
         height: 100%;
-
         background: url(../images/kids-img_tablet.png) center;
+        background-size: cover;
+    }
+    #Givingback{
+        height: 100%;
+        background: url(../images/givingback-tablet.png) center;
         background-size: cover;
     }
     ul.social-links {
@@ -1604,6 +1781,7 @@ div.col-sm-2.col-6 {
         content: ' ';
     }
 }
+
 /********************
  *  mobile style
  ********************/
@@ -1615,23 +1793,40 @@ div.col-sm-2.col-6 {
 
     }
 */
-    .dps-infographic{
+    .div_border{
+        margin-left: 0px;
+    margin-right: 0px;
+    }
+    .d-hideall {
+        display: none;
+    }
+    .fix {
+        height: auto;
+        border: 1px solid trasparent;
+    }
+    .section-cinfo {
+        padding-top: 0rem;
+    }
+    .dps-infographic {
         width: 30%;
     }
-    .mt-0{
+    .mt-0 {
         margin-top: 0px;
     }
-    .mb-r{
+    .mb-r {
         margin-bottom: 0px;
     }
-    .mtt-20{
+    .mtt-20 {
         margin-top: 20px;
     }
-    .text-cmobile{
+    .text-cmobile {
         text-align: center;
     }
-    
-    .plus{
+    .cimg-ic {
+        height: 40px;
+        width: 140px;
+    }
+    .plus {
         width: 10%;
     }
     .d-hide {
@@ -1676,6 +1871,9 @@ div.col-sm-2.col-6 {
         text-align: left!important;
         padding-left: 2%;
     }
+    .text-rightt {
+        text-align: left!important;
+    }
     .imgmb-20 {
         margin-bottom: 20px;
     }
@@ -1710,6 +1908,11 @@ div.col-sm-2.col-6 {
     #child-hunger {
         height: 100%;
         background: url(../images/kids-img_mobile.png) center;
+        background-size: cover;
+    }
+    #Givingback{
+        height: 100%;
+        background: url(../images/givingback-mobile.png) center;
         background-size: cover;
     }
     #l-banner-enrg {
